@@ -1,0 +1,89 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2{
+    font-size: 15px;
+   padding: 10px 35px;
+}
+
+.inner-img{
+    vertical-align: middle;
+}
+
+.outer-img{
+    position: relative;
+    top: 30px;
+    margin-bottom: 5px;
+}
+
+.turn{
+    background-color: white;
+    height: 40px;
+    width: 150px;
+    margin-bottom: -20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 250px;
+    position: relative;
+    bottom: 40px;
+}
+
+.center{
+    background-color: white;
+    height: 320px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.cpu{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: orange;
+    position: relative;
+    left: 210px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.you{
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+    background-color: rgb(0, 208, 255);
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reset-game{
+    background-color: rgb(204, 199, 199);
+    border-radius: 25px;
+    width: 400px;
+    height: 40px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
