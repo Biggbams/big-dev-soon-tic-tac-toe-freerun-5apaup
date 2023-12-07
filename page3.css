@@ -7,6 +7,8 @@ body{
     place-items: center;
     height: 100vh;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation-name: fadeIn;
+    animation-duration: 2s;
 }
 
 h2{
@@ -41,6 +43,15 @@ h2{
     height: 320px;
     width: 400px;
     border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-item{
+    border: 1px solid rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .cpu{
@@ -68,6 +79,12 @@ h2{
     align-items: center;
 }
 
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .reset-game{
     background-color: rgb(204, 199, 199);
     border-radius: 25px;
@@ -82,8 +99,13 @@ h2{
 }
 
 
-
-
+@keyframes fadeIn{
+    from { opacity: 0
+}
+ to{
+    opacity: 1;
+ }
+}
 
 
 
